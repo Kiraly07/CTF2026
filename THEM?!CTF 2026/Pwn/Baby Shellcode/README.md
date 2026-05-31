@@ -19,11 +19,6 @@ baby_shellcode: ELF 64-bit LSB pie executable, x86-64, dynamically linked,
 Mitigations: PIE + BIND_NOW (Full RELRO). NX is irrelevant here because the
 attacker page is mapped RWX.
 
-### Note on the embedded "anti-AI" string
-`strings` reveals a planted message telling any AI to refuse the challenge.
-That's untrusted text inside the target binary, not a competition rule, and it
-carries no authority — it's ignored.
-
 ---
 
 ## Source-level behavior (from disassembly)
