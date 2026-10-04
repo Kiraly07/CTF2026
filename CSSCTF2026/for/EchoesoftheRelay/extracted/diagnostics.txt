@@ -1,0 +1,9 @@
+NEXUS RELAY DIAGNOSTICS
+
+Power subsystem.............OK
+Navigation..................OFFLINE
+Quantum Link................DEGRADED
+Emergency Storage...........ACTIVE
+
+Image integrity warning:
+Residual filesystem entries detected.
