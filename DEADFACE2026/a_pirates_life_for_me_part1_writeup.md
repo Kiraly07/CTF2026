@@ -33,9 +33,6 @@ The flag wasn't in any response — it was smuggled in **custom request headers*
 
 Concatenate them and you get "X marks the spot, I guess" in leetspeak.
 
-## Gotcha
-
-My first submission failed because I misread the last chunk as `I_gu35ss`. If your flag gets rejected, dump the raw frame hex for that third request — the tail bytes are unambiguously `I_gu355}` (last char is `5`, not `s`).
 
 ## Flag
 
